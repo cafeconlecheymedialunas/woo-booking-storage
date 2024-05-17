@@ -1,0 +1,55 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .woo-booking-storage{
+    max-width:1170px!important;
+    min-height:600px;
+ }
+ .woo-booking-storage .form-columns{
+    min-height:600px;
+ }
+ .navigator{
+    background-color: #97AE41;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+ }
+ .navigator i{
+    font-size:40px;
+    color:white;
+ }
+ .dots span{
+    display:block;
+    width:10px;
+    height:10px;
+    border-radius: 100%;
+    margin-top:5px;
+    background-color:#54595F;
+ }
+ .dots span.active{
+
+    background-color:white;
+ }
+
+ .woo-booking-storage .form-booking{
+    padding:30px;
+    position:relative;
+ }
+ .form-booking .step-title{
+    color:#97AE41;
+    font-size: 20px;
+ }
+ .form-booking .step-counter{
+    position: absolute;
+    top:20px;
+    right:20px;
+ }
+
+ .woo-booking-storage .form-booking .btn.btn-primary{
+    background-color: #97AE41;
+    border:1px solid #97AE41;
+ }
